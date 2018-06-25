@@ -1,0 +1,4 @@
+.search_bar
+  = form_tag('/search') do
+    = text_field_tag 'search_field', nil, placeholder: 'search images'
+    = submit_tag "Find Images"
