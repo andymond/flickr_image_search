@@ -1,0 +1,26 @@
+.header, .alert {
+  text-align: center;
+}
+
+.search-bar, input {
+  margin: 10px;
+}
+
+.search-bar form {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.search-results, .search-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.search-result {
+  margin: 10px;
+}
