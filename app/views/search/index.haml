@@ -1,3 +1,8 @@
+.search_bar
+  = form_tag('/search', method: 'get') do
+    = text_field_tag 'search_field', nil, placeholder: 'search images'
+    = submit_tag 'Find Images'
+
 -if @image_urls
   - @image_urls.each do |url|
     %img{class: 'search-result', src: url}
