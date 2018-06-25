@@ -9,7 +9,7 @@ describe "User visits root and can search for images" do
     fill_in "search_field", with: "cats"
     click_on "Find Images"
 
-    expect(page).to have_content('displaying search results')
+    expect(page).to have_content('displaying search results for cats')
     expect(page).to have_selector('img.search-result')
   end
 end
